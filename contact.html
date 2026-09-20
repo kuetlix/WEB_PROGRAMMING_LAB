@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Kübra's Art Studio </title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Welcome to Kübra's Art Studio</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="services.html">Artworks </a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>  
+           <section>
+               <label for="fullName">Full Name:</label>
+                        <input type="text" id="fullName" name="fullName" required>
+                        <br><br>
+                        
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required>
+                        <br><br>
+                        
+                        <label for="contactDate">Contact Date:</label>
+                        <input type="date" id="contactDate" name="contactDate">
+                        <br><br>
+                        
+                        <label for="subject">Reason for Contact:</label>
+                        <select id="subject" name="subject">
+                            <option value="buy">I want to buy an artwork</option>
+                            <option value="commission">I want to commission a custom portrait</option>
+                            <option value="collab">Business collaboration</option>
+                            <option value="hello">Just saying hi!</option>
+                        </select>
+                        <br><br>
+                        
+                        <label for="message">Your Message:</label><br>
+                        <textarea id="message" name="message" rows="5" cols="40"></textarea>
+                        <br><br>
+                        
+                        <input type="submit" value="Send Message">
+            </section>         
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Kübra's Art Studio. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
