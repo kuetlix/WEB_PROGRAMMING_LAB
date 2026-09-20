@@ -6,32 +6,32 @@ This is my personal art portfolio website called "Kübra's Art Studio" that I ma
 ## File Organization
 1. Home Page (index.html)
 Must include:
-A <header> with a site title and a navigation menu using an unordered list.
-A <main> section with:At least two articles (<article>)
-Each article must contain:A heading (<h1>–<h3>)
+A `<header>` with a site title and a navigation menu using an unordered list.
+A `<main>` section with:At least two articles (`<article>`)
+Each article must contain:A heading (`<h1>`–`<h3>`)
 A paragraph
-An image using <img>
-A <footer> with your name and copyright. 
+An image using `<img>`
+A `<footer>` with your name and copyright. 
 
 2. About Page (about.html)
 Must include:
-A <section> describing the website's purpose.
-A <figure> containing an image with:<img>
-<figcaption>
-At least five semantic HTML tags, such as:<aside>, <nav>, <time>, <mark>, <blockquote>, <details>, <summary>, etc…
+A `<section>` describing the website's purpose.
+A `<figure>` containing an image with:`<img>`
+`<figcaption>`
+At least five semantic HTML tags, such as:`<aside>`, `<nav>`, `<time>`, `<mark>`, `<blockquote>`, `<details>`, `<summary>`, etc…
 
 3. Services / Projects Page (services.html)
 Must include:
-A <table> with:At least 4 columns
+A `<table>` with:At least 4 columns
 At least 5 rows
-Table header (<thead>), body (<tbody>), and footer (<tfoot>)
+Table header (`<thead>`), body (`<tbody>`), and footer (`<tfoot>`)
 
 4. Contact Page (contact.html)
 Must include:
-A fully functional HTML form using:<form>, <fieldset>, <legend>
-<label> + <input> pairs (text, email, date)
-<textarea>
-<select> with at least 3 options
+A fully functional HTML form using:`<form>`, `<fieldset>`, `<legend>`
+`<label>` + `<input>` pairs (text, email, date)
+`<textarea>`
+`<select>` with at least 3 options
 A submit button
 
 ## Challenges I Faced
